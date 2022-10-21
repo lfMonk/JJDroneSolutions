@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="940" height="788" viewBox="0 0 940 788" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<g transform="matrix(1 0 0 1 32 32)" id="Ellipse_3">
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(13,163,81); fill-rule: nonzero; opacity: 1;" cx="0" cy="0" r="32"/>
+</g>
+<g transform="matrix(1 0 0 1 29.0115 28.586)" id="Path_2836">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-11.0115, -10.586)" d="M 18.632 0 H 3.388 A 3.391 3.391 0 0 0 0 3.388 V 20.325 a 0.846 0.846 0 0 0 0.488 0.767 a 0.859 0.859 0 0 0 0.359 0.08 a 0.847 0.847 0 0 0 0.542 -0.2 l 4.846 -4.038 h 12.4 a 3.391 3.391 0 0 0 3.388 -3.388 V 3.388 A 3.391 3.391 0 0 0 18.632 0 Z m 1.694 13.55 a 1.7 1.7 0 0 1 -1.694 1.694 H 5.928 a 0.846 0.846 0 0 0 -0.542 0.2 L 1.694 18.518 V 3.388 A 1.7 1.7 0 0 1 3.388 1.694 H 18.632 a 1.7 1.7 0 0 1 1.694 1.694 Z" stroke-linecap="round"/>
+</g>
+<g transform="matrix(1 0 0 1 34.9365 34.9351)" id="Path_2837">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" transform=" translate(-138.1615, -138.1601)" d="M 144.938 128 a 0.847 0.847 0 1 0 0 1.694 a 1.7 1.7 0 0 1 1.694 1.694 v 14.328 l -2.859 -2.287 a 0.853 0.853 0 0 0 -0.528 -0.185 H 131.388 a 1.7 1.7 0 0 1 -1.694 -1.694 V 140.7 a 0.847 0.847 0 1 0 -1.694 0 v 0.847 a 3.391 3.391 0 0 0 3.388 3.388 h 11.558 l 4 3.2 a 0.848 0.848 0 0 0 1.377 -0.662 V 131.388 A 3.391 3.391 0 0 0 144.938 128 Z" stroke-linecap="round"/>
+</g>
+</svg>
