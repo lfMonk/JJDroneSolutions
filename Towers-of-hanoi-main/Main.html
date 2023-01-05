@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/icon.png">
+        
+        <title>Play | Towers Of Hanoi</title>
+    </head>
+    <body>
+        <header class = "header">   
+            <h1 class = "title"> Towers of Hanoi</h1>
+            <div class = "bottomstripe"></div>
+            <div class = "column firstc"></div>
+            <div class = "column secondc"></div>
+            <div class = "column thirdc"></div>
+            <div class = "disk c--2 h--8" id = "d--8"></div>
+            <div class = "disk c--2 h--7" id = "d--7"></div>
+            <div class = "disk c--2 h--6" id = "d--6"></div>
+            <div class = "disk c--2 h--5" id = "d--5"></div>
+            <div class = "disk c--2 h--4" id = "d--4"></div>
+            <div class = "disk c--2 h--3" id = "d--3"></div>
+            <div class = "disk c--2 h--2" id = "d--2"></div>
+            <div class = "disk c--2 h--1" id = "d--1"></div>
+        </header> 
+        <span id = "movesMes" class = "greenMes"></span>
+        <div class = "overlay"></div> 
+        <div class = "startwindow">
+            <span class = 'welcomeMes'>Welcome. Please select the number of disks ...</span>
+            <div class = "startBtn buttonclickanimation">
+                <span class = "start"> START</span>
+            </div>
+            <div class = "selectdisks">
+                <div class = "button plusbutton buttonclickanimation">
+                    <span class = "centerbutton"">+</span>
+                </div>
+                <span class = "numdisks">3</span>
+                <div class = "button minusbutton buttonclickanimation">
+                    <span class = "centerbutton">-</span>
+                </div>
+                <div class = "difficultymes">
+                    <span class = "about1">very easy</span>
+                    <span class = "about2">Minimum moves: 7</span>
+
+                </div>
+            </div>
+        </div>
+        <div id = "finish" class = "hidden">
+            <span id = "finishMes">🤩Completed🤩</span>
+            <div id = restartBtn class = "button buttonclickanimation">
+                <span class = "centerbutton" id = "restartTxt"> Restart</span>
+            </div>
+        </div>  
+        <script src="script.js"></script>      
+            </body>
+</html>

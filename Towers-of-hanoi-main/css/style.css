@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 15px;
+    backface-visibility: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 95vh;
+    padding: 8vh;
+    background-image:linear-gradient(
+        to right bottom,
+         rgb(41, 43, 41),
+          rgba(22, 124, 39, 0.8)),
+           url(../img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+  
+}
+
+.title{
+    text-align: center;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 6vmin;
+    font-weight: 400;
+    letter-spacing: 10px;
+    
+}
+
+.startwindow{ 
+    background-image:linear-gradient(
+        to right bottom,
+         rgb(170, 236, 158),
+          rgb(61, 110, 94));
+    position: absolute;
+    width: 80vw;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 40px;
+    animation: moveFromLeft 2s ease-out;
+    padding-top: 5vh;
+    text-align: center;
+    
+}
+
+.startBtn{
+    position: absolute;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    width: 16vw;
+    height: 12vh;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%); 
+    border-radius: 10px;
+    background-color: rgb(186, 235, 218);
+    color: rgb(25, 95, 70);
+    border-color: rgb(6, 105, 74);
+}
+
+.buttonclickanimation
+{
+    transition: all 0.2s;
+}
+
+.buttonclickanimation:hover{
+    transform: translate(-50%, -55%);
+}
+
+.buttonclickanimation:active{
+    transform: translate(-50%, -52%); 
+}
+
+.start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%); 
+    text-transform: uppercase;
+    font-size: 3vmin;
+    font-weight: 700;
+
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+}
+
+.hidden {
+    display: none;
+  }
+
+.hiddenStart{
+    animation: moveToRight 2s ease-out;
+}
+
+.welcomeMes{
+    font-size: 4vmin;
+    font-weight: 400;
+    color: rgb(25, 95, 70);
+
+
+}
+
+.bottomstripe{
+    position: absolute;
+    width: 85vw;
+    height: 5vh;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgb(30, 43, 38);
+    border-color: rgb(6, 105, 74);
+    border-radius: 10px;
+}
+
+.column{
+    position: absolute;
+    width: 2vw;
+    height: 50vh;
+    top: 60%;
+    transform: translate(-50%, -50%); 
+    background-color: rgb(30, 43, 38);
+    border-radius: 10px;
+}
+
+.firstc{
+    left: 20%;
+}
+
+.secondc{
+    left: 50%;
+}
+
+.thirdc{
+    left: 80%;
+}
+
+.disk{
+    position: absolute;
+    height: 5vh;
+    transform: translate(-50%, -50%); 
+    border-radius: 5px;
+}
+
+.diskTrans{
+    border-style: solid;
+    border-width: 5px;  
+    border-color:rgb(170, 236, 158);
+
+}
+
+#d--8{
+    width: 1%;
+    background-color: rgb(255, 146, 96);
+}
+
+#d--7{
+    width: 4%;
+    background-color: rgb(255, 112, 46);
+}
+
+#d--6{
+    width: 7%;
+    background-color: rgb(255, 81, 0);
+}
+
+#d--5{
+    width: 10%;
+    background-color: rgb(194, 70, 13);
+}
+
+#d--4{
+    width: 13%;
+    background-color: rgb(148, 60, 19);
+}
+
+#d--3{
+    width: 16%;
+    background-color: rgb(116, 48, 16);
+}
+
+#d--2{
+    width: 19%;
+    background-color: rgb(88, 46, 27);
+}
+
+#d--1{
+    width: 22%;
+    background-color: rgb(66, 41, 30);
+}
+
+.c--1{
+    left: 17%;
+}
+
+.c--2{
+    left: 50%;
+}
+
+.c--3{
+    left: 80%;
+}
+
+.h--1{
+    top: 80%;
+}
+
+.h--2{
+    top: 75.1%;
+}
+
+.h--3{
+    top: 70.2%;
+}
+
+.h--4{
+    top: 65.3%;
+}
+
+.h--5{
+    top: 60.4%
+}
+
+.h--6{
+    top: 55.5%;
+}
+
+.h--7{
+    top: 50.6%;
+}
+
+.h--8{
+    top: 45.7%;
+}
+
+.selectdisks{
+    position: absolute;
+    width: vw;
+    height: 25vh;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    background-image:linear-gradient(
+        to left bottom,
+         rgb(170, 236, 158, 0.4),
+          rgb(61, 110, 94, 0.4));
+    border-radius: 30px;
+
+   
+}
+
+.button{
+    position: absolute;
+    clip-path: circle(40%);
+    width: 7vw;
+    height:10vh;
+    transform: translate(-50%, -50%); 
+    background-color: rgb(186, 235, 218);
+    color: rgb(25, 95, 70);
+}
+
+.plusbutton{
+    top: 50%;
+    left: 15%;
+}
+.minusbutton{
+    top: 50%;
+    left: 45%;
+} 
+
+.numdisks{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%); 
+    color: rgb(22, 51, 41);
+    font-size: 8vmin;
+    font-weight: 700;
+    
+}
+
+.centerbutton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-transform: uppercase;
+    font-size: 5vmin;
+    font-weight: 700;
+}
+
+.difficultymes{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.about1{
+    display: block;
+    color: rgb(25, 95, 70);
+    font-size: 4vmin;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.about2{
+    display: block;
+    color: rgb(25, 95, 70);
+    font-size: 3vmin;
+    font-weight: 700;
+}
+
+#movesMes{
+    position: absolute;
+    top: 92%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 4vmin;
+    font-weight: 700;
+    text-align: center;
+}
+
+.greenMes{
+    color:rgb(40, 180, 133, 0.5);
+}
+
+.redMes{
+    color: rgb(255, 0, 0, 0.5);
+}
+
+#finish{
+    position: absolute;
+    width: 80vw;
+    height: 90vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:linear-gradient(
+        to left bottom,
+         rgb(170, 236, 158, 0.8),
+          rgb(61, 110, 94, 0.8));
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    animation: toCenter 0.5s ease-in;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+#finishMes{
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5vmin;
+    font-weight: 700;
+    color: rgb(11, 68, 48);
+}
+
+#restartBtn{
+    width: 10vw;
+    height: 15vh;
+    top: 57%;
+    left: 50%;
+}
+
+#restartTxt{
+    font-size: 2.5vmin;
+}
+
+@keyframes moveFromLeft{
+    0%{
+        opacity: 0;
+        transform: translate(-100%, -50%); 
+        
+    }
+    80%{
+        transform: translate(-48%, -50%); 
+    }
+   
+    100%{
+        opacity: 1;
+        transform: translate(-50%,-50%);
+
+    }
+}
+
+@keyframes moveToRight{
+    0%{
+        opacity: 1;
+        transform: translate(-50%, -50%); 
+        
+    }
+    20%{
+        transform: translate(-52%, -50%); 
+    }
+   
+    100%{
+        opacity: 0;
+        transform: translate(100%,-50%);
+    }
+}
+
+@keyframes toCenter{
+    0%{
+        opacity: 0;
+        width: 1vw;
+        height: 1vh;
+        
+    }
+    80%{
+        opacity: 1;
+        width: 78vw;
+        height: 95vh;
+    }
+    100%{
+        width: 75vw;
+        height: 90vh;
+    }
+}
+    
