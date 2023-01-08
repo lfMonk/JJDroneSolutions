@@ -1,11 +1,11 @@
 <?php
 
-    $to = "sampleemailfordisc@example.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+    $to = "ilbf713@gmail.com";
+    $from = $_POST['email'];
+    $name = $_POST['name'];
+    $csubject = $_POST['subject'];
+    $number = $_POST['number'];
+    $cmessage = $_POST['message'];
 
     $headers = "From: $from";
 	$headers = "From: " . $from . "\r\n";
@@ -16,7 +16,7 @@
     $subject = "You have a message from your Bitmap Photography.";
 
     $logo = 'img/logo.png';
-    $link = '#';
+    $link = '';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
